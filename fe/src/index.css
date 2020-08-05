@@ -1,0 +1,86 @@
+#analyticsSpotifyRoot {
+  margin: 0;
+  background-color: white !important;
+  font-size: 14px;
+}
+
+#dateRangePicker, #chartTypePicker, #highchartDataPerCountry, .chartTypePicker {
+  margin: 1em;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 1em;
+  min-height: 65px !important;
+}
+
+.highcharts-title{
+  font-family: Apple-System, Arial, Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', STXihei, sans-serif, 'Open Sans';
+  font-size: 1.5rem !important;
+  color: #645d5d !important;
+}
+
+.highcharts-drillup-button rect {
+  width: 70px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.expandItemIcons {
+  border: 2px solid #ddd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-weight: bold;
+  padding-top: 9px;
+  padding-left: 9px;
+  position: absolute;
+  background: rgb(29, 185, 84);
+  top: 3px;
+  left: 0px;
+  color: #fff;
+  margin-left: 1em;
+}
+
+.rs-list-item-content {
+  margin-left: 5em;
+}
+
+.rs-table-row-expanded {
+  background-color: #eee !important;
+  border-radius: 6px;
+}
+
+.chartNameContainer{
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1em;
+  color: #645d5d;
+}
+
+#countsColum, #rankColumn {
+  font-size: 14px;
+}
+
+#rank-1 {
+  color: gold;
+}
+
+#rank-2 {
+  color: silver;
+}
+
+#rank-3 {
+  color: #d3927a;
+}
+
+#expand-icon {
+  color: #7cb5ec;
+}
+
+#columnHeader{
+  font-size: medium;
+}
+
+.formLabel{
+  text-align: center;
+  padding-top: 7px;
+}
